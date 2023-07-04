@@ -42,8 +42,56 @@
                 <a class="nav-link" href="#gallery">Photo Gallery</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contacts">Contact Us</a>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="float: left">
+                        Contact Us
+                    </button>
+                    <div class="dropdown-menu">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">@example.com</span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="basic-url" class="form-label">Your vanity URL</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                            </div>
+                            <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <span class="input-group-text">.00</span>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                        </div>
+
+                        <div class="input-group">
+                            <span class="input-group-text">With textarea</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div><button class="btn btn-secondary" type="button">
+                            Submit
+                        </button>
+                        </div>
+                    </div>
+
+                </div>
+
             </li>
+
             </ul>
         </div>
     </div>
@@ -69,7 +117,7 @@
     Our friendly driver will pick you up at your hotel, and transports you via touristic bus to the ruins in PISAC,
     where Incan stone
     walls perch dramatically on a cliff, surrounded by rows upon rows of terraces overlooking the Sacred Valley below.
-    Afterwards, we’ll visit the PISAC MARKET in the colonial center of the town of Pisac. For centuries, residents of
+    Afterward, we’ll visit the PISAC MARKET in the colonial center of the town of Pisac. For centuries, residents of
     the region
     have used the main plaza of their town as an important local market for alpaca clothing, quinoa and other fruits and
     vegetables
@@ -78,7 +126,7 @@
     We’ll stop at the town of URUBAMBA for lunch (not included in the cost of the tour), and then we’ll drive another
     hour
     to the dramatic and unforgettable Incan fortress at OLLANTAYTAMBO which we will climb. The town contains a lot of
-    Incan stonework and architecture that has been very well preserved. Finally, we will drive back to Cuzco, stopping
+    Incan stonework and architecture that has been very well-preserved. Finally, we will drive back to Cuzco, stopping
     on the
     way for a visit to the colonial town of CHINCHERO where Spanish conquistadors built a church on top of an Incan
     temple.
