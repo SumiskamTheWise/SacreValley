@@ -5,14 +5,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="smallstyle.css">
 </head>
 <body>
 
 <div class="header">
     <nav>
         <ul>
-            <li><img class="logo" src="Logo.png" alt="logo"></li>
+            <li><img class="logo1" src="images/Logo.png" alt="logo"></li>
             <li><a href="#">Trek Options</a></li>
             <li><a href="#">Trek Info</a></li>
             <li><a href="#">Cuzco Tours</a></li>
@@ -23,7 +24,7 @@
     </nav>
 </div>
 <div class="TheValley">
-    <img class="top-image" src="TopImage.png" alt="">
+    <img class="top-image" src="images/TopImage.png" alt="">
 </div>
 
 <div class="InfoText">
@@ -33,9 +34,11 @@
         <h2>THE HOME OF THE INCAS</h2>
     </div>
 
-    <div class="InfoButtons">
-            <h2 class="direction"> <span style="color:aqua;">HOME</span> > <span style="color:aqua;">CUZCO TOURS</span> > SACRED VALLEY TOUR</h2>
-            <a href="#" class="reserve" id="reserve">RESERVE THIS TOUR </a>
+    <div class="InfoButtons1">
+        <h2 class="direction">
+            <a href="#" class="reserve-top" id="reserve">RESERVE THIS TOUR </a>
+            <span style="color:aqua;">HOME</span> > <span style="color:aqua;">CUZCO TOURS</span> > SACRED VALLEY TOUR</h2>
+
     </div>
 
     <h2>
@@ -49,27 +52,27 @@
 
 </div>
 
-    <div class="InfoButtons">
-        <div><img src="Arrow.png" alt=""></div>
-        <div>
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book.
-        </div>
+<div class="arrow">
+    <div><img src="images/Arrow.png" alt="">        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book.</div>
+    <div>
+
     </div>
+</div>
 
 <div class="fourImages">
 
-    <div style="width: 100%">
+    <div>
         <div class="FourImages">
-            <img src="Ruins.png" alt="ruins">
-            <img src="Pisac.png" alt="old lady knitting" style="float: right;">
+            <img src="images/Ruins.png" alt="ruins">
+            <img src="images/Pisac.png" alt="old lady knitting" style="float: right;">
         </div>
     </div>
 
     <div>
         <div class="FourImages">
-            <img src="Ollantaytambo.png" alt="">
-            <img src="Chinchero.png" alt="" style="float: right;">
+            <img src="images/Ollantaytambo.png" alt="">
+            <img src="images/Chinchero.png" alt="" style="float: right;">
         </div>
     </div>
 
@@ -80,26 +83,24 @@
     <a href="#" class="reserve" id="reserve">RESERVE THIS TOUR </a>
 </div>
 
-<div style="margin: 5% 0 1% 0;">Find more information about this tour:</div>
-
-<div class="InfoButtons">
-    <a href="#"> <img alt="" src="FirstClickButton.png"></a>
-    <a href="#"> <img alt="" src="SecondClickButton.png"></a>
-    <a href="#"> <img alt="" src="ThirdClickButton.png"></a>
+    <div class="InfoButtons">
+    <div style="margin-bottom:2%; margin-top:2%; ">Find more information about this tour:</div>
+    <div><a href="#"> <img alt="" src="images/FirstClickButton.png"></a></div>
+    <div> <a href="#"> <img alt="" src="images/SecondClickButton.png"></a></div>
+    <div><a href="#"> <img alt="" src="images/ThirdClickButton.png"></a></div>
 </div>
 
 <div class="footer">
 
     <div class="InfoButtons">
-        <img src="Logo.png" alt="">
+        <img src="images/Logo.png" alt="" class="big-logo-down">
         <h3>552 W.Lorem Hampstead Street, Cuzco, Peru</h3>
         <h3>Phone: 252-224-4422</h3>
         <h3>info@salkantay.com</h3>
     </div>
 
 </div>
-
-<div class="footerImage"><img class="top-image" src="FooterImage.png" alt=""></div>
+<div class="footerImage"><img class="top-image" src="images/FooterImage.png" alt=""></div>
 
 </body>
 

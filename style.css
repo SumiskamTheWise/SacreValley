@@ -1,14 +1,19 @@
-
 .header {
     margin: 2% 2% 2% 2%;
     justify-content: space-evenly;
 }
 
-.logo {
+.logo1 {
     display: inline-block;
     height: 100%;
     width: 100%;
 }
+.logo {
+    display: inline-block;
+    height: 10%;
+    width: 10%;
+}
+
 
 nav {
     color: #000000;
@@ -17,14 +22,28 @@ nav {
 
 nav ul {
     list-style-type: none;
-
 }
 
 nav ul li {
-    vert-align: middle;
+
     display: inline-block;
+    vertical-align: middle;
     margin: 1vw 1vw 1vw 1vw;
     justify-content: space-evenly;
+    border-right: 1px solid black;
+    padding-right: 2%;
+
+
+}
+nav ul li:first-child{
+    border: none;
+    padding-right: 2%;
+
+}
+nav ul li:last-child{
+    border: none;
+    padding-right: 2%;
+
 }
 
 nav ul li a {
@@ -33,9 +52,9 @@ nav ul li a {
     margin: 0 auto;
     color: #000000;
     text-decoration: none;
-    width: 24px;
-    height: 24px;
-    font-size: 1.5em;
+    width: 2vw;
+    height: 2vh;
+    font-size: 100%;
 
 }
 
@@ -65,11 +84,11 @@ nav ul li a:hover {
 
 }
 .FourImages {
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: 100%;
     display: inline-flex;
-    column-gap: 10vw;
+    column-gap: 10%;
     margin-bottom: 5%;
 }
 
@@ -86,18 +105,38 @@ nav ul li a:hover {
     float: right;
 
 }
+.reserve-top {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    width: 30%;
+    height: 60%;
+    font-size: 2vw;
+    float: right;
 
+}
 
 
 button {
     border: none;
 }
-
+.arrow{
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
 .Price {
     margin-left: 5%;
     margin-right: 5%;
     height: 50px;
-    width: 80%;
+    width: 90%;
     border-bottom-style: dotted;
     border-top-style: dotted;
     border-width: 5px;
@@ -110,7 +149,7 @@ button {
     margin-left: 5%;
     margin-right: 5%;
     height: 50px;
-    width: 80%;
+    width: 90%;
     border-bottom-style: dotted;
     border-width: 5px;
     border-color: aquamarine;
@@ -119,18 +158,33 @@ button {
 }
 
 .InfoButtons {
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 3%;
+    margin: 3% 3% 3% 3%;
 
 }
 
 footer {
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
     display: inline-flex;
     justify-content: space-around;
 
 }
+.InfoButtons1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
 
 .footerImage {
     width: 100%;
+}
+.big-logo-down{
+
 }
