@@ -1,0 +1,77 @@
+@media only screen and (min-width: 300px) {
+body{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.nav-item:hover{
+    transition-duration: 2s;
+    color: black;
+    border: 1px solid black;
+}
+.nav-item:first-child{
+    border-right: 1px solid black;
+}
+.nav-item:last-child{
+    border: none;
+}
+.top-image{
+    width: 100%;
+}
+.title {
+    text-align: center;
+    width: 100%;
+    font-size: 100% ;
+}
+.way {
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    float: right;
+
+}
+.price_box{
+    align-items: center;
+    justify-content: flex-end;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:  3px dotted cornflowerblue;
+    border-top:  3px dotted cornflowerblue ;
+    background-color: lightskyblue;
+}
+.gallery{
+    width: 500px;
+}
+.center{
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.more-info{
+    padding: 1%;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.more-info a {
+    text-decoration: none;
+    color: black;
+    background-color: #ababab;
+    padding-right: 4%;
+    border-radius: 20px;
+}
+.footer-image{
+    width: 100%;
+}
+}
+
+.more-info{
+}
